@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+title: pyBrAPI
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Manuel
+    family-names: Feser
+    email: feser@ipk-gatersleben.de
+    name-particle: Manuel
+    affiliation: >-
+      Leibniz Institute of Plant Genetics and Crop Plant
+      Research
+    orcid: 'https://orcid.org/0000-0001-6546-1818'
+repository-code: 'https://github.com/IPK-BIT/pyBrapi'
+abstract: >-
+  pyBrAPI is a Python package that provides convenient
+  access to data from BrAPI servers. It simplifies
+  interacting with BrAPI endpoints by handling REST requests
+  and responses, and returns data typed into Python data
+  models.
+keywords:
+  - BrAPI
+  - python
+license: MIT
+version: 0.1.0
