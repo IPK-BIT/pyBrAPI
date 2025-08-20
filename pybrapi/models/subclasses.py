@@ -111,3 +111,23 @@ class ValidValues(BaseModel):
     categories: list[ValidValue]|None = None
     maximumValue: str|None = None
     minimumValue: str|None = None
+
+class Donor(BaseModel):
+    donorACcessionNumber: str|None = None
+    donorInstituteCode: str|None = None
+    
+class GermplasmOrigin(BaseModel):
+    coordinateUncertainty: str|None = None
+    coordinateUncertainty: GeoJSON|None = None
+    
+class StorageType(BaseModel):
+    code: str|None = None
+    description: str|None = None
+
+class Synonym(BaseModel):
+    synonym: str|None = None
+    type: str|None = None
+    
+class TaxonId(BaseModel):
+    sourceName: str
+    taxonId: str
